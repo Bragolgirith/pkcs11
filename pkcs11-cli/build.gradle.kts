@@ -23,6 +23,7 @@ dependencies {
     testImplementation(libraries.junit.api)
     testImplementation(libraries.junit.engine)
     testRuntimeOnly(libraries.junit.engine)
+    testRuntimeOnly(libraries.junit.platform.launcher)
 }
 
 tasks {
